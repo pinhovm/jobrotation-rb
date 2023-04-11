@@ -102,9 +102,6 @@ function inverterString(string) {
     return strInvertida;
 }
 
-
-var stringOriginal = "TEXTO";
-
-var strInvertida = inverterString(stringOriginal);
-
+var strOriginal = "TEXTO";
+var strInvertida = inverterString(strOriginal);
 console.log("String invertida: " + strInvertida);
